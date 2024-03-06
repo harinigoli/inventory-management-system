@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="inventory management system.css">
+</head>
+<body>
+    <div class="container">
+        <center><h1>Inventory Management System</h1></center>
+        <div class="form">
+            <input type="text" id="itemName" placeholder="Item Name">
+            <input type="number" id="quantity" placeholder="Quantity">
+            <button onclick="addItem()">Add Item</button><br><br>
+            <input type="text" id="search" oninput="searchItems()" placeholder="Search">
+            <label for="sort">Sort by:</label>
+            <select id="sort" onchange="sortItems()">
+                <option value="name">Name</option>
+                <option value="quantity">Quantity</option>
+            </select>
+        </div>
+        <div id="itemList">
+            <!-- Item list will be displayed here -->
+        </div>
+    </div>
+
+    <script src="inventory management system.js"></script>
+</body>
+</html>

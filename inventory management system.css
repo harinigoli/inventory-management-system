@@ -1,0 +1,33 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+#itemList {
+    margin-top: 20px;
+}
+
+.item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item button {
+    margin-left: 10px;
+}
+h1{
+    background: red;
+    color: lightblue;
+}
+body{
+    background: lightskyblue;
+}
